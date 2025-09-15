@@ -18,7 +18,7 @@ Optimistic updates ensure a smooth user experience, while the codebase follows b
 - **Pagination**: Implemented to keep task lists clear, fast, and user-friendly  
 
 ### Task Management
-- Users can create tasks with three possible statuses (e.g., NOT_STARTED, IN_PROGRESS, COMPLETED)  
+- Users can create tasks with three possible statuses: Not_Started, In_Progress, Completed.
 - Tasks can be updated or moved between statuses  
 - Tasks can be deleted instantly with optimistic feedback  
 - Paginated listing provides a smooth browsing experience  
