@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next-ToDo-App — Full-Stack Task Management Prototype
 
-## Getting Started
+## Project Overview
+Next-ToDo-App is a prototype task management application built with **Next.js** as a full-stack development framework.  
+The project demonstrates modern web application patterns with a focus on simplicity, clean structure, and developer-friendly practices.  
 
-First, run the development server:
+The application allows users to sign in securely, create and update tasks, move them between statuses, and interact with a clean, paginated UI.  
+Optimistic updates ensure a smooth user experience, while the codebase follows best practices for folder structure and maintainability.  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### General Architecture
+- **Full-stack with Next.js**: Both frontend and backend are integrated in a single codebase  
+- **Prisma ORM**: Database operations are handled with Prisma, ensuring type-safe and reliable queries  
+- **Authentication**: Secure login and session handling with NextAuth  
+- **State Management**: React Query manages server state with support for optimistic updates on delete and update actions  
+- **UI/UX**: Tailwind CSS and shadcn/ui provide a modern and minimal design system  
+- **Pagination**: Implemented to keep task lists clear, fast, and user-friendly  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Task Management
+- Users can create tasks with three possible statuses (e.g., NOT_STARTED, IN_PROGRESS, COMPLETED)  
+- Tasks can be updated or moved between statuses  
+- Tasks can be deleted instantly with optimistic feedback  
+- Paginated listing provides a smooth browsing experience  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Technical Highlights
+- **Next.js App Router** for routing and server components  
+- **Prisma Client** for database interactions with strong typing  
+- **NextAuth** for authentication and session management  
+- **React Query** for data fetching, caching, and optimistic updates  
+- **Tailwind + shadcn/ui** for a scalable and consistent UI layer  
+- **Clean Folder Structure** ensuring separation of concerns and maintainability
 
-To learn more about Next.js, take a look at the following resources:
+## Installation
+1. Clone the repository  
+2. Install dependencies  
+3. Configure `.env` variables (DATABASE_URL, NEXTAUTH_SECRET, etc.)  
+4. Run `npx prisma migrate dev`  
+5. Start the development server with `npm run dev`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
