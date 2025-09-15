@@ -1,0 +1,60 @@
+model User1 {
+  id      Int     @id @default(autoincrement())
+  name    String
+  profile Profile?
+  @@ignore
+}
+
+model Profile {
+  id     Int  @id @default(autoincrement())
+  bio    String
+  userId Int  @unique
+  user   User1 @relation(fields: [userId], references: [id])
+  @@ignore
+}
+
+
+
+model User2 {
+  id    Int    @id @default(autoincrement())
+  name  String
+  posts Post[]
+  @@ignore
+}
+
+model Post {
+  id     Int  @id @default(autoincrement())
+  title  String
+  userId Int
+  user   User2 @relation(fields: [userId], references: [id])
+  @@ignore
+}
+
+
+
+model Post1 {
+  id    Int     @id @default(autoincrement())
+  title String
+  tags  PostTag[]
+  @@ignore
+}
+
+model Tag {
+  id    Int     @id @default(autoincrement())
+  name  String
+  posts PostTag[]
+  @@ignore
+}
+
+model PostTag {
+  postId Int
+  tagId  Int
+
+  post Post1 @relation(fields: [postId], references: [id])
+  tag  Tag   @relation(fields: [tagId], references: [id])
+
+  @@id([postId, tagId])
+  @@ignore
+}
+
+
