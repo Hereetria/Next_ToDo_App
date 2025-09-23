@@ -36,7 +36,7 @@ Optimistic updates ensure a smooth user experience, while the codebase follows b
 ## Installation
 1. Clone the repository  
 2. Install dependencies  
-3. Configure `.env` variables (DATABASE_URL, NEXTAUTH_SECRET, etc.)  
+3. Configure `.env` variables (DATABASE_URL, NEXTAUTH_URL, NEXTAUTH_SECRET, etc.)  
 4. Run `npx prisma migrate dev`  
 5. Start the development server with `npm run dev`
 
