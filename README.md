@@ -52,21 +52,7 @@ The app enables users to securely sign in, create and update tasks, move them be
     </td>
     <td align="center">
       <img src="./public/screenshots/login.png" width="250"><br>
-      <sub><b>Another Page with a Very Long Title</b></sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="./public/screenshots/tasks.png" width="250"><br>
-      <sub><b>Tasks Page</b></sub>
-    </td>
-    <td align="center">
-      <img src="./public/screenshots/login.png" width="250"><br>
-      <sub><b>Login Page</b></sub>
-    </td>
-    <td align="center">
-      <img src="./public/screenshots/login.png" width="250"><br>
-      <sub><b>Another Pageaoeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee</b></sub>
+      <sub><b>Another Page with<br>a Very Long Title</b></sub>
     </td>
   </tr>
 </table>
