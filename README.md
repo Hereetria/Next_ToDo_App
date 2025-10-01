@@ -40,19 +40,36 @@ The app enables users to securely sign in, create and update tasks, move them be
 
 > ℹ️ A quick visual overview of the project’s main pages and features.
 
-<p align="center">
-  <img src="./public/screenshots/tasks.png" width="32%">
-  <img src="./public/screenshots/login.png" width="32%">
-  <img src="./public/screenshots/login.png" width="32%">
-</p>
-
-<p align="center">
-  <sub><b>Tasks Page</b></sub>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <sub><b>Login Page</b></sub>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <sub><b>Another Page</b></sub>
-</p>
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="./public/screenshots/tasks.png" width="95%"><br>
+      <sub><b>Tasks Page</b></sub>
+    </td>
+    <td align="center">
+      <img src="./public/screenshots/login.png" width="95%"><br>
+      <sub><b>Login Page</b></sub>
+    </td>
+    <td align="center">
+      <img src="./public/screenshots/login.png" width="95%"><br>
+      <sub><b>Another Page</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="./public/screenshots/tasks.png" width="95%"><br>
+      <sub><b>Tasks Page</b></sub>
+    </td>
+    <td align="center">
+      <img src="./public/screenshots/login.png" width="95%"><br>
+      <sub><b>Login Page</b></sub>
+    </td>
+    <td align="center">
+      <img src="./public/screenshots/login.png" width="95%"><br>
+      <sub><b>Another Page</b></sub>
+    </td>
+  </tr>
+</table>
 
 
 
