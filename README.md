@@ -43,33 +43,34 @@ The app enables users to securely sign in, create and update tasks, move them be
 <table align="center">
   <tr>
     <td align="center">
-      <img src="./public/screenshots/tasks.png" width="95%"><br>
+      <img src="./public/screenshots/tasks.png" width="250"><br>
       <sub><b>Tasks Page</b></sub>
     </td>
     <td align="center">
-      <img src="./public/screenshots/login.png" width="95%"><br>
+      <img src="./public/screenshots/login.png" width="250"><br>
       <sub><b>Login Page</b></sub>
     </td>
     <td align="center">
-      <img src="./public/screenshots/login.png" width="95%"><br>
-      <sub><b>Another Page</b></sub>
+      <img src="./public/screenshots/login.png" width="250"><br>
+      <sub><b>Another Page with a Very Long Title</b></sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="./public/screenshots/tasks.png" width="95%"><br>
+      <img src="./public/screenshots/tasks.png" width="250"><br>
       <sub><b>Tasks Page</b></sub>
     </td>
     <td align="center">
-      <img src="./public/screenshots/login.png" width="95%"><br>
+      <img src="./public/screenshots/login.png" width="250"><br>
       <sub><b>Login Page</b></sub>
     </td>
     <td align="center">
-      <img src="./public/screenshots/login.png" width="95%"><br>
-      <sub><b>Another Pageaoeuaaoeuaoeauaoeuaoeaueoa</b></sub>
+      <img src="./public/screenshots/login.png" width="250"><br>
+      <sub><b>Another Page<aoeaoeoaeaoe/b></sub>
     </td>
   </tr>
 </table>
+
 
 
 
