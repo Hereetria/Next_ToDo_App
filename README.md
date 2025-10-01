@@ -44,7 +44,7 @@ The app enables users to securely sign in, create and update tasks, move them be
   <tr>
     <th align="center">Tasks Page</th>
     <th align="center">Login Page</th>
-    <th align="center">Login Page</th>
+    <th align="center">Login Pageaeuooooooooooooooo</th>
   </tr>
   <tr>
     <td align="center">
