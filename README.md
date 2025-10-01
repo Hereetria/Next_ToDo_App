@@ -61,7 +61,7 @@ Shown below in order:
 
 <br>
 
-## Installation
+## 📥 Installation
 1. Clone the repository  
 2. Install dependencies  
 3. Configure `.env` variables (DATABASE_URL, NEXTAUTH_URL, NEXTAUTH_SECRET, etc.)  
