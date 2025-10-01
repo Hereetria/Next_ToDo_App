@@ -37,12 +37,18 @@ The app enables users to securely sign in, create and update tasks, move them be
 <br>
 
 ## 🧰 Tech Stack
-- ⚡ **Next.js App Router** — routing & server components  
-- 🧠 **Prisma Client** — strong typing and database interactions  
-- 🔐 **NextAuth** — authentication & session management  
-- 🔄 **React Query** — data fetching, caching, optimistic updates  
-- 🎨 **Tailwind + shadcn/ui** — scalable, consistent UI  
-- 🧭 **Clean Folder Structure** — separation of concerns and maintainability
+
+This project was built using the following technologies:
+
+<p>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" />
+  <img src="https://img.shields.io/badge/NextAuth.js-3C873A?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/React%20Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white" />
+</p>
+
 
 <br>
 
