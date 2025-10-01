@@ -48,13 +48,13 @@ The app enables users to securely sign in, create and update tasks, move them be
   </tr>
   <tr>
     <td align="center">
-      <img src="./public/screenshots/tasks.png" width="95%">
+      <img src="./public/screenshots/tasks.png" width="100%">
     </td>
     <td align="center">
-      <img src="./public/screenshots/login.png" width="95%">
+      <img src="./public/screenshots/login.png" width="100%">
     </td>
     <td align="center">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif" width="95%">
+      <img src="./public/screenshots/login.png" width="100%">
     </td>
   </tr>
 </table>
