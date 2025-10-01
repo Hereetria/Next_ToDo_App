@@ -37,23 +37,14 @@ The app enables users to securely sign in, create and update tasks, move them be
 <br>
 
 ## 🖼️ Screenshots
-
-> ℹ️ A quick visual overview of the project’s main pages and features.
-
 Shown below in order:  
-**1. Tasks** · **2. Login** · **3. Dashboard** · **4. Profile** ·  
-**5. Settings** · **6. Create Task** · **7. Notifications** · **8. About**
+**1. Tasks** · **2. Login**
 
 <p align="center">
   <img src="./public/screenshots/tasks.png" width="32%">
   <img src="./public/screenshots/login.png" width="32%">
   <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif" width="32%">
 </p>
-
-
-
-
-
 
 <br>
 
