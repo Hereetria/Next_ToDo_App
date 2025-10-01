@@ -66,7 +66,7 @@ The app enables users to securely sign in, create and update tasks, move them be
     </td>
     <td align="center">
       <img src="./public/screenshots/login.png" width="95%"><br>
-      <sub><b>Another Page</b></sub>
+      <sub><b>Another Pageaoeuaaoeuaoeauaoeuaoeaueoa</b></sub>
     </td>
   </tr>
 </table>
