@@ -1,37 +1,50 @@
-# Next-ToDo-App — Full-Stack Task Management Prototype
+# 📝 Next-ToDo-App — Full-Stack Task Management Prototype
 
-## Project Overview
-Next-ToDo-App is a prototype task management application built with **Next.js** as a full-stack development framework.  
-The project demonstrates modern web application patterns with a focus on simplicity, clean structure, and developer-friendly practices.  
+<br>
 
-The application allows users to sign in securely, create and update tasks, move them between statuses, and interact with a clean, paginated UI.  
-Optimistic updates ensure a smooth user experience, while the codebase follows best practices for folder structure and maintainability.  
+[![🐛 Report Bug](https://img.shields.io/badge/🐛_Report_Bug-red?style=for-the-badge)](../../issues/new?labels=bug)
+[![✨ Request Feature](https://img.shields.io/badge/✨_Request_Feature-blue?style=for-the-badge)](../../issues/new?labels=enhancement)
 
-## Features
+<br>
 
-### General Architecture
-- **Full-stack with Next.js**: Both frontend and backend are integrated in a single codebase  
-- **Prisma ORM**: Database operations are handled with Prisma, ensuring type-safe and reliable queries  
-- **Authentication**: Secure login and session handling with NextAuth  
-- **State Management**: React Query manages server state with support for optimistic updates on delete and update actions  
-- **UI/UX**: Tailwind CSS and shadcn/ui provide a modern and minimal design system  
-- **Pagination**: Implemented to keep task lists clear, fast, and user-friendly  
+## 📌 Project Overview
+Next-ToDo-App is a **full-stack task management** prototype built with **Next.js**.  
+It demonstrates **modern web application patterns** with a focus on **simplicity**, **clean structure**, and **developer-friendly practices**.
 
-### Task Management
-- Users can create tasks with three possible statuses: Not_Started, In_Progress, Completed.
-- Tasks can be updated or moved between statuses  
-- Tasks can be deleted instantly with optimistic feedback  
-- Paginated listing provides a smooth browsing experience  
+The app enables users to securely sign in, create and update tasks, move them between statuses, and browse through a **clean, paginated UI**.  
+⚡ **Optimistic updates** ensure a smooth experience, and the folder structure follows best practices for maintainability.
+
+<br>
+
+## ✨ Features
+
+### 🧱 General Architecture
+- 🌐 **Full-stack with Next.js** — frontend and backend in one codebase  
+- 🧠 **Prisma ORM** — type-safe, reliable database operations  
+- 🔐 **Authentication** — secure login and session handling with NextAuth  
+- 🔄 **State Management** — React Query with optimistic updates for smooth UX  
+- 🎨 **UI/UX** — Tailwind CSS + shadcn/ui for modern, minimal design  
+- 📑 **Pagination** — clean and fast task lists with paginated display
 
 ---
 
-## Technical Highlights
-- **Next.js App Router** for routing and server components  
-- **Prisma Client** for database interactions with strong typing  
-- **NextAuth** for authentication and session management  
-- **React Query** for data fetching, caching, and optimistic updates  
-- **Tailwind + shadcn/ui** for a scalable and consistent UI layer  
-- **Clean Folder Structure** ensuring separation of concerns and maintainability
+### 📝 Task Management
+- ➕ Create tasks with statuses: **Not_Started**, **In_Progress**, **Completed**  
+- ✏️ Update or move tasks between statuses  
+- 🗑️ Delete tasks instantly with optimistic feedback  
+- 📄 Paginated listing for smooth browsing
+
+<br>
+
+## 🧰 Tech Stack
+- ⚡ **Next.js App Router** — routing & server components  
+- 🧠 **Prisma Client** — strong typing and database interactions  
+- 🔐 **NextAuth** — authentication & session management  
+- 🔄 **React Query** — data fetching, caching, optimistic updates  
+- 🎨 **Tailwind + shadcn/ui** — scalable, consistent UI  
+- 🧭 **Clean Folder Structure** — separation of concerns and maintainability
+
+<br>
 
 ## Installation
 1. Clone the repository  
@@ -40,3 +53,14 @@ Optimistic updates ensure a smooth user experience, while the codebase follows b
 4. Run `npx prisma migrate dev`  
 5. Start the development server with `npm run dev`
 
+<br>
+
+## 📜 License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+This project is licensed under the terms described in the [LICENSE](./LICENSE) file.
+
+---
+
+© 2025 Yusuf Okan Sirkeci — [Hereetria](https://github.com/Hereetria)
