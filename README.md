@@ -40,23 +40,11 @@ The app enables users to securely sign in, create and update tasks, move them be
 
 > ℹ️ A quick visual overview of the project’s main pages and features.
 
-<table align="center">
-  <tr>
-    <td align="center">
-      <img src="./public/screenshots/tasks.png" width="250"><br>
-      <sub><b>Tasks Page</b></sub>
-    </td>
-    <td align="center">
-      <img src="./public/screenshots/login.png" width="250"><br>
-      <sub><b>Login Page</b></sub>
-    </td>
-    <td align="center">
-      <img src="./public/screenshots/login.png" width="250"><br>
-      <sub><b>Another Page with<br>a Very Long Title</b></sub>
-    </td>
-  </tr>
-</table>
-
+<p align="center">
+  <img src="./public/screenshots/tasks.png" width="32%">
+  <img src="./public/screenshots/login.png" width="32%">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Transparent.gif" width="32%">
+</p>
 
 
 
